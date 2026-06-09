@@ -15,7 +15,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "./_components/DropdownMenu";
-import { Avatar, AvatarFallback, AvatarImage } from "./_components/Avatar";
+import { Avatar, AvatarFallback, AvatarImage } from "./_components/avatar";
 import { Toaster } from "sonner";
 import SignedOutPage from "./features/SignedOutPage";
 import Image from "next/image";

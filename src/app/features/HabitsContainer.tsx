@@ -21,7 +21,7 @@ import clsx from "clsx";
 import { toUTCDateString } from "~/utils/getUTCDate";
 import useHabitMutations from "~/hooks/useHabitMutations";
 import { HabitsEmptyState } from "./HabitEmptyState";
-import { Checkbox } from "../_components/Checkbox";
+import { Checkbox } from "../_components/checkbox";
 
 function getMonthStats(completedDates: Set<string>) {
   const today = new Date();
